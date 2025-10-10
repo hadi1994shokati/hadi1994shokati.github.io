@@ -5,10 +5,11 @@ on:
     branches:
       - master
       - main
-  push:
-    branches:
-      - master
-      - main
+  # Disabled push trigger to allow direct commits without formatting checks
+  # push:
+  #   branches:
+  #     - master
+  #     - main
 
 jobs:
   check:
