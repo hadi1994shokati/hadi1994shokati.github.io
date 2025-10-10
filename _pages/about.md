@@ -26,24 +26,17 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a Soil Scientist at the [University of Tübingen, Germany](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/doctoral-students/hadi-shokati/), combining deep learning and remote sensing to model soil and environmental processes in agriculture. I work with UAV imagery, multi-spectral data, and advanced computational methods to support precision agriculture and sustainable land management. I am proficient in deep learning, Python, and spatial data analysis, and I enjoy turning complex data into practical insights.
+I am a **Soil Scientist** at the [University of Tübingen, Germany](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/doctoral-students/hadi-shokati/), combining **deep learning** and **remote sensing** to model soil and environmental processes in agriculture. I work with **UAV imagery, multi-spectral data, and advanced computational methods** to support precision agriculture and sustainable land management. I am proficient in deep learning, Python, and spatial data analysis, and I enjoy turning complex data into practical insights.
 
-Interests:
+I am interested in:
 
-- Precision Agriculture
+- GIS, Remote and Proximal Sensing
 
-- Digital Soil Mapping
+- Soil Erosion and Soil Moisture Modelling
 
-- Remote Sensing
+- Spatial Data Analysis and Machine Learning
 
-- Data Analytics
-
-- Machine Learning
-
-Pedology and Digital Soil Mapping
-GIS, Remote and Proximal Sensing
-Spatial Data Analysis and Machine Learning
-Soil Health, Climate Change and Precision Agriculture
+- Photogerametry, Climate Change and Precision Agriculture
 
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
