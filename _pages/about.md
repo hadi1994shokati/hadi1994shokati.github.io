@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
@@ -28,17 +28,23 @@ latest_posts:
 ---
 I am a Soil Scientist at the [University of Tübingen, Germany](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/doctoral-students/hadi-shokati/), combining deep learning and remote sensing to model soil and environmental processes in agriculture. I work with UAV imagery, multi-spectral data, and advanced computational methods to support precision agriculture and sustainable land management. I am proficient in deep learning, Python, and spatial data analysis, and I enjoy turning complex data into practical insights.
 
-Interests
+Interests:
 
-Precision Agriculture
+- Precision Agriculture
 
-Digital Soil Mapping
+- Digital Soil Mapping
 
-Remote Sensing
+- Remote Sensing
 
-Data Analytics
+- Data Analytics
 
-Machine Learning
+- Machine Learning
+
+Pedology and Digital Soil Mapping
+GIS, Remote and Proximal Sensing
+Spatial Data Analysis and Machine Learning
+Soil Health, Climate Change and Precision Agriculture
+
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
