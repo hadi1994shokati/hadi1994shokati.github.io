@@ -30,13 +30,13 @@ I am a **Soil Scientist** at the [University of Tübingen, Germany](https://uni-
 
 I am interested in:
 
-- GIS, Remote and Proximal Sensing
+GIS, Remote and Proximal Sensing
 
-- Soil Erosion and Soil Moisture Modelling
+Soil Erosion and Soil Moisture Modelling
 
-- Spatial Data Analysis and Machine Learning
+Spatial Data Analysis and Machine Learning
 
-- Photogerametry, Climate Change and Precision Agriculture
+Photogerametry, Climate Change and Precision Agriculture
 
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
