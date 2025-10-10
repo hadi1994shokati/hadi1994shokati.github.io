@@ -26,8 +26,19 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-Hello from Hadi
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Soil Scientist at the [University of Tübingen, Germany](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/doctoral-students/hadi-shokati/), combining deep learning and remote sensing to model soil and environmental processes in agriculture. I work with UAV imagery, multi-spectral data, and advanced computational methods to support precision agriculture and sustainable land management. I am proficient in deep learning, Python, and spatial data analysis, and I enjoy turning complex data into practical insights.
+
+Interests
+
+Precision Agriculture
+
+Digital Soil Mapping
+
+Remote Sensing
+
+Data Analytics
+
+Machine Learning
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
