@@ -33,7 +33,7 @@
       "highlights": ["Soil Erosion", "Deep Learning", "Remote Sensing", "Precision Agriculture"]
     }
   ], 
-  "education": [
+  "educatio": [
     {
       "institution": "University of Tübingen, Tübingen, Germany",
       "location": "Tübingen, Germany",
@@ -312,7 +312,7 @@
   "references": [
     {
       "name": "Professor Thomas Scholten",
-      "icon": "fa-solid fa-laptop",
+      "icon": "fa-solid fa-thumbtack",
       "reference": "Chair of Soil Science and Geomorphology, Department of Geoscience, Faculty of Science, University of Tübingen, Germany"
     },
     {
