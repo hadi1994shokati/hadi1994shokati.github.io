@@ -202,55 +202,123 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "Matlab"
+      ]
+    },
+    {
+      "name": "Machine Learning ",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Regression",
+        "Classification",
+        "Clustering",
+        "Transfer Learning",
+        "Data Analysis",
+        "Data Visualization"
+      ]
+    },
+    {
+      "name": "GIS and Remote Sensing",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "ArcGIS Pro",
+        "QGIS",
+        "ENVI",
+        "ESNAP",
+        "SAGA",
+        "Google Earth Engine"
+      ]
+    },
+    {
+      "name": "UAV Piloting",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Flight Operations",
+        "Photogrammetry",
+        "Spatial Data Processing",
+        "Drone Mapping"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "German",
+      "fluency": "Beginner",
+      "icon": ""
+    },
+    {
+      "language": "Turkish",
+      "fluency": "Intermediate",
+      "icon": ""
+    },
+    {
+      "language": "Persian",
+      "fluency": "Native",
+      "icon": ""
+    },
+    {
+      "language": "Azerbaijani",
+      "fluency": "Native",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Soil Erosion Modeling",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Soil Moisture Modeling",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Precision Agriculture",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Data Analysis",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Flood Mapping",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Digital Soil Mapping",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Remote Sensing",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Machine Learning and Deep Learning",
+      "icon": "fa-solid fa-tag"
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Thomas Scholten",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Chair of Soil Science and Geomorphology, Department of Geoscience, Faculty of Science, University of Tübingen, Germany"
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Peter Fiener",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Professor at the Department of Water and Soil Resource Research, Augsburg University, Augsburg, Germany"
     }
   ],
   "projects": [
