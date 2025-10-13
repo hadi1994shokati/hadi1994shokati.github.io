@@ -4,11 +4,11 @@
     "label": "Soil Scientist",
     "image": "",
     "email": "hadi.shokati@uni-tuebingen.de",
-    "phone": "(912) 123-4567",
+    "phone": "(+49) 15901384204",
     "url": "https://hadi1994shokati.github.io/",
     "summary": "Soil scientist at the University of Tübingen.",
     "location": {
-      "address": "72070 Rümelinstraße 19 – 23",
+      "address": "72070 Rümelinstraße 19 - 23",
       "postalCode": "72070",
       "city": "Tübingen",
       "countryCode": "DE",
@@ -24,15 +24,15 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
+      "name": "Faculty of Soil Science & Geomorphology, University of Tübingen",
+      "position": "PhD Student",
+      "url": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/doctoral-students/hadi-shokati/",
+      "startDate": "2023-08-01",
+      "endDate": "ongoing",
       "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "highlights": ["Soil Erosion", "Deep Learning", "Remote Sensing", "Precision Agriculture"]
     }
-  ],
+  ], 
   "volunteer": [
     {
       "organization": "People's Climate March",
