@@ -60,28 +60,119 @@
     }
   ],
   "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  {
+    "name": "A GLUE-based assessment of WaTEM/SEDEM for simulating soil erosion, transport, and deposition in soil conservation optimised agricultural watersheds",
+    "publisher": "EGUsphere [preprint]",
+    "releaseDate": "2025",
+    "url": "https://doi.org/10.5194/egusphere-2025-3391",
+    "summary": "This study assesses the performance of WaTEM/SEDEM using a GLUE-based uncertainty framework for simulating soil erosion, transport, and deposition in optimized agricultural watersheds."
+  },
+  {
+    "name": "Rapid Flood Mapping from Aerial Imagery Using Fine-Tuned SAM and ResNet-Backboned U-Net",
+    "publisher": "EGUsphere [preprint]",
+    "releaseDate": "2025",
+    "url": "https://doi.org/10.5194/egusphere-2025-3146",
+    "summary": "This work presents a fine-tuned SAM and ResNet-based U-Net approach for rapid and accurate flood mapping using aerial imagery."
+  },
+  {
+    "name": "Comparing UAV-Based Hyperspectral and Satellite-Based Multispectral Data for Soil Moisture Estimation Using Machine Learning",
+    "publisher": "Water",
+    "releaseDate": "2025",
+    "url": "https://doi.org/10.3390/w17111715",
+    "summary": "This paper compares UAV hyperspectral and satellite multispectral data for soil moisture estimation using various machine learning algorithms."
+  },
+  {
+    "name": "Erosion-SAM: Semantic segmentation of soil erosion by water",
+    "publisher": "CATENA",
+    "releaseDate": "2025",
+    "url": "https://doi.org/10.1016/j.catena.2025.108954",
+    "summary": "A deep learning framework, Erosion-SAM, is developed for semantic segmentation of soil erosion features from remote sensing imagery."
+  },
+  {
+    "name": "BIPE: A Bi-Layer Predictive Ensemble Framework for Forest Fire Susceptibility Mapping in Germany",
+    "publisher": "Remote Sensing",
+    "releaseDate": "2024",
+    "url": "https://doi.org/10.3390/rs17010007",
+    "summary": "This study introduces BIPE, a bi-layer predictive ensemble framework for mapping forest fire susceptibility across Germany."
+  },
+  {
+    "name": "Assessment of Land Suitability Potential Using Ensemble Approaches of Advanced Multi-Criteria Decision Models and Machine Learning for Wheat Cultivation",
+    "publisher": "Remote Sensing",
+    "releaseDate": "2024",
+    "url": "https://doi.org/10.3390/rs16142566",
+    "summary": "An ensemble approach combining advanced decision models and machine learning to assess land suitability for wheat cultivation."
+  },
+  {
+    "name": "Assessing the Role of Environmental Covariates and Pixel Size in Soil Property Prediction: A Comparative Study of Various Areas in Southwest Iran",
+    "publisher": "Land",
+    "releaseDate": "2024",
+    "url": "https://doi.org/10.3390/land13081309",
+    "summary": "This paper investigates the effects of pixel size and environmental covariates on soil property prediction performance."
+  },
+  {
+    "name": "Random Forest-Based Soil Moisture Estimation Using Sentinel-2, Landsat-8/9, and UAV-Based Hyperspectral Data",
+    "publisher": "Remote Sensing",
+    "releaseDate": "2024",
+    "url": "https://doi.org/10.3390/rs16111962",
+    "summary": "A random forest model is developed to estimate soil moisture using data from Sentinel-2, Landsat-8/9, and UAV hyperspectral imagery."
+  },
+  {
+    "name": "Assessing reliability of rainwater harvesting systems for meeting water demands in different climatic zones of Iran",
+    "publisher": "Modeling Earth Systems and Environment",
+    "releaseDate": "2020",
+    "url": "https://doi.org/10.1007/s40808-019-00662-3",
+    "summary": "This paper evaluates the reliability of rainwater harvesting systems across different Iranian climatic zones."
+  },
+  {
+    "name": "Evaluating the Accuracy of Precipitation Products Over Utah, United States, Using the Google Earth Engine Platform",
+    "publisher": "Desert",
+    "releaseDate": "2023",
+    "url": "https://doi.org/10.22059/jdesert.2023.93548",
+    "summary": "The study evaluates various satellite precipitation products over Utah using Google Earth Engine analysis."
+  },
+  {
+    "name": "Assessing soil moisture levels using visible UAV imagery and machine learning models",
+    "publisher": "Remote Sensing Applications: Society and Environment",
+    "releaseDate": "2023",
+    "url": "https://doi.org/10.1016/j.rsase.2023.101076",
+    "summary": "This paper explores the potential of visible UAV imagery combined with ML models for soil moisture estimation."
+  },
+  {
+    "name": "Designing of Rainwater Harvesting Systems Using Drone Images",
+    "publisher": "Engineering Journal",
+    "releaseDate": "2021",
+    "url": "https://doi.org/10.30495/wej.2021.4590",
+    "summary": "This study uses drone images to design and optimize rainwater harvesting systems. (In Persian)"
+  },
+  {
+    "name": "Reliability, Optimization and Economic Analysis of the Rainwater Harvesting System from the Rooftop",
+    "publisher": "Iranian Journal of Irrigation and Water Engineering",
+    "releaseDate": "2021",
+    "url": "",
+    "summary": "A study on the reliability, optimization, and cost-effectiveness of rooftop rainwater harvesting systems. (In Persian)"
+  },
+  {
+    "name": "Urban runoff management in sustainable development and the environment",
+    "publisher": "Journal of Environmental Science Studies",
+    "releaseDate": "2019",
+    "url": "http://www.jess.ir/article_87096.html",
+    "summary": "This Persian-language paper discusses urban runoff management strategies for sustainable development."
+  },
+  {
+    "name": "Estimation of Evapotranspiration in Landscape by WUCOLS, PF and IPOS Methods",
+    "publisher": "Journal of Water and Soil",
+    "releaseDate": "2022",
+    "url": "https://doi.org/10.22067/JSW.2022.73984.1119",
+    "summary": "A comparative estimation of landscape evapotranspiration using WUCOLS, PF, and IPOS methods. (In Persian)"
+  },
+  {
+    "name": "Optimization and Feasibility Study of using Rainwater Harvesting Systems in Ardabil",
+    "publisher": "Journal of Water and Soil",
+    "releaseDate": "2022",
+    "url": "https://doi.org/10.22067/JSW.2022.73460.1111",
+    "summary": "This Persian-language study evaluates the feasibility and optimization of rainwater harvesting systems in Ardabil."
+  }
+],
   "skills": [
     {
       "name": "Physics",
