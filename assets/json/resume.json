@@ -148,7 +148,7 @@
     "name": "Reliability, Optimization and Economic Analysis of the Rainwater Harvesting System from the Rooftop",
     "publisher": "Iranian Journal of Irrigation and Water Engineering",
     "releaseDate": "2021",
-    "url": "",
+    "url": "https://doi.org/10.22125/iwe.2022.162640",
     "summary": "A study on the reliability, optimization, and cost-effectiveness of rooftop rainwater harvesting systems. (In Persian)"
   },
   {
@@ -173,6 +173,33 @@
     "summary": "This Persian-language study evaluates the feasibility and optimization of rainwater harvesting systems in Ardabil."
   }
 ],
+  "conferences": [
+  {
+    "name": "Fine-tuning the Segment Anything Model for Automated Flood Detection in Aerial Imagery",
+    "Conference": "Annual Meeting of the German Soil Science Society 2025, Tübingen, Germany",
+    "Date": "2025"
+  },
+  {
+    "name": "Automated high-resolution detection of soil erosion and deposition features in agricultural fields using the fine-tuned Segment Anything Model",
+    "Conference": "EGU General Assembly 2025, Vienna, Austria",
+    "Date": "2025"
+  },
+  {
+    "name": "WaTEM/SEDEM's capability in simulating watershed-scale soil conservation: Using the GLUE approach to analyse the representation of in-field processes and connectivity features along thalwegs",
+    "Conference": "EGU General Assembly 2025, Vienna, Austria",
+    "Date": "2025"
+  },
+  {
+    "name": "Comparison of Hyperspectral and Multispectral Remote Sensing for Improved Surface Soil Moisture Estimation",
+    "Conference": "13th EARSeL Workshop on Imaging Spectroscopy, València, Spain",
+    "Date": "2024"
+  },
+  {
+    "name": "Comparison of advanced multicriteria decision and FAO models for land suitability assessment",
+    "Conference": "EGU General Assembly 2025, Vienna, Austria",
+    "Date": "2024"
+  }
+  ],
   "skills": [
     {
       "name": "Physics",
