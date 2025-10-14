@@ -323,7 +323,7 @@
   ],
   "projects": [
     {
-      "name": "Erosion-SAM Project",
+      "name": "Erosion-SAM",
       "summary": "The Erosion-SAM project focuses on the automatic detection of soil erosion and sedimentation in aerial imagery. Following heavy rainfall events, high-resolution aerial images were captured over affected areas, where erosion and sediment features were manually segmented. These annotated images were then used to fine-tune the Segment Anything Model (SAM) through transfer learning, addressing the common issue of limited labeled data in soil erosion research. The resulting Erosion-SAM model can accurately identify erosion and sediment features from aerial images without requiring additional training. Its outputs are valuable for training and validating machine learning models, as well as for environmental monitoring, natural resource management, and insurance assessments.",
       "highlights": ["Fine-tuning", "Transfer Learning", "Soil Erosion", "Segment Anything Model (SAM)"],
       "startDate": "Aug 2023",
@@ -331,7 +331,7 @@
       "url": "https://www.sciencedirect.com/science/article/pii/S0341816225002565"
     },
     {
-      "name": "Flood Mapping Project",
+      "name": "Rapid Flood Mapping",
       "summary": "The Rapid Flood Mapping project compares two deep learning approaches for detecting flooded areas from aerial imagery: a fine-tuned Segment Anything Model (SAM) and a U-Net with a ResNet backbone. High-resolution aerial images captured shortly after major flood events were used to train and evaluate both models. This project demonstrates the potential of AI-driven flood mapping for rapid disaster assessment, emergency response planning, infrastructure risk analysis, and environmental monitoring, enabling authorities and organizations to make faster and more informed decisions in the aftermath of floods.",
       "highlights": ["Fine-tuning", "Transfer Learning", "Flood", "Segment Anything Model (SAM)", "U-Net", "ResNet"],
       "startDate": "Jan 2025",
@@ -339,7 +339,7 @@
       "url": "https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3146/"
     },
     {
-      "name": "Soil Moisture Estimation Project",
+      "name": "Soil Moisture Estimation",
       "summary": "This project compares the effectiveness of UAV-based hyperspectral data and satellite-based multispectral data for estimating surface soil moisture using  machine learning. High-resolution hyperspectral imagery was collected using UAVs, while multispectral data was obtained from Sentinel-2 and Landsat-8/9 satellites. Several machine learning models were trained and evaluated on both datasets. The study demonstrates that UAV-based hyperspectral sensing, combined with machine learning, can provide higher-resolution and more accurate soil moisture maps, which are valuable for precision agriculture, hydrology, and resource management.",
       "highlights": ["Soil Moisture", "Hyperspectral", "Multispectral", "Machine Learning", "Random Forest", "Support Vector Machine", "Gradient Boosting"],
       "startDate": "Jan 2021",
@@ -347,12 +347,60 @@
       "url": "https://www.mdpi.com/2072-4292/16/11/1962"
     },
     {
-      "name": "Soil Moisture Estimation Project",
+      "name": "Visible UAV Sensors in Soil Moisture Estimation",
       "summary": "This project investigates the potential of high-resolution visible UAV imagery to estimate surface soil moisture. By capturing aerial images immediately after irrigation and rainfall events, the project extracts spectral indices that are sensitive to soil moisture variations. These indices are then analyzed to assess the relationship between image-derived data and in-situ soil moisture measurements. The study demonstrates that UAV-based visible imagery can provide a low-cost, rapid, and non-invasive method for monitoring soil moisture, offering valuable insights for precision agriculture, irrigation management, and sustainable land use planning.",
       "highlights": ["Soil Moisture", "Visible Imagery", "UAV", "Machine Learning"],
       "startDate": "Jan 2021",
-      "endDate": "Dec 2021",
+      "endDate": "Dec 2023",
       "url": "https://www.sciencedirect.com/science/article/pii/S2352938523001581"
+    },
+    {
+      "name": "WaTEM/SEDEM Model Assessment using GLUE",
+      "summary": "This project evaluates the performance of the WaTEM/SEDEM soil erosion model using the Generalized Likelihood Uncertainty Estimation (GLUE) framework. By applying the model to agricultural watersheds optimized for soil conservation, the study assesses its ability to simulate soil erosion, transport, and deposition processes. The GLUE approach allows for a comprehensive uncertainty analysis, providing insights into model reliability and identifying key parameters influencing model outputs. The findings contribute to improving soil erosion modeling practices and inform land management strategies aimed at reducing soil loss and enhancing conservation efforts.",
+      "highlights": ["Soil Erosion", "WaTEM/SEDEM", "GLUE", "Uncertainty Analysis"],
+      "startDate": "Jan 2021",
+      "endDate": "Dec 2024",
+      "url": "https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3391/"
+    },
+    {
+      "name": "Land Suitability Assessment for Wheat Cultivation",
+      "summary": "This project assesses land suitability for wheat cultivation using an ensemble approach that combines advanced multi-criteria decision models and machine learning techniques. By integrating various environmental, climatic, and soil factors, the study evaluates the potential of different land areas for optimal wheat growth. The ensemble method enhances the accuracy and reliability of suitability assessments, providing valuable insights for agricultural planning, resource management, and sustainable land use practices. The results support decision-making processes aimed at improving crop yields and ensuring food security.",
+      "highlights": ["Land Suitability", "Wheat Cultivation", "Multi-Criteria Decision Models", "Machine Learning", "Ensemble Approach"],
+      "startDate": "Jan 2022",
+      "endDate": "Dec 2024",
+      "url": "https://www.mdpi.com/2072-4292/16/14/2566"
+    },
+    {
+      "name": "Forest Fire Susceptibility Mapping",
+      "summary": "This project develops a bi-layer predictive ensemble (BIPE) framework for mapping forest fire susceptibility across Germany. By integrating multiple machine learning algorithms and environmental factors, the BIPE approach enhances the accuracy of fire risk predictions. The study identifies high-risk areas, providing valuable information for forest management, fire prevention strategies, and emergency response planning. The results contribute to improving our understanding of forest fire dynamics and support efforts to mitigate the impacts of wildfires on ecosystems and communities.",
+      "highlights": ["Forest Fire", "Susceptibility Mapping", "Machine Learning", "Ensemble Approach"],
+      "startDate": "Jan 2022",
+      "endDate": "Dec 2024",
+      "url": "https://www.mdpi.com/2072-4292/17/1/7"
+    },
+    {
+      "name": "Precipitation Product Accuracy Evaluation using Google Earth Engine",
+      "summary": "This project evaluates the accuracy of various satellite-based precipitation products over Utah using the Google Earth Engine platform. By comparing satellite data with ground-based observations, the study assesses the performance of different precipitation datasets in capturing spatial and temporal variability. The research provides insights into the strengths and limitations of each product, informing their appropriate use in hydrological modeling, climate studies, and water resource management. The findings contribute to improving the reliability of precipitation data for various applications.",
+      "highlights": ["Precipitation Products", "Google Earth Engine", "Accuracy Evaluation", "Satellite Data"],
+      "startDate": "Jan 2021",
+      "endDate": "Dec 2022",
+      "url": "https://jdesert.ut.ac.ir/article_93548.html"
+    },
+    {
+      "name": "Soil Erosion Modeling",
+      "summary": "This project employs a hybrid modeling approach to estimate soil erosion. First, erosion and deposition are modeled using the WATSEDM framework. The resulting outputs, along with additional datasets, are then used as inputs for a deep learning model. For validation, outputs from our previous project, (Erosion-SAM) are utilized. This approach can provide a more accurate and robust prediction of soil erosion patterns by combining the strengths of physically-based models with the adaptive capabilities of machine learning.",
+      "highlights": ["Soil Erosion",  "Hybrid Modeling", "WaTEM/SEDEM", "Deep Learning"],
+      "startDate": "May 2025",
+      "endDate": "Ongoing",
+      "url": ""
+    },
+    {
+      "name": "Rainfall Erosivity Forecasting",
+      "summary": "In this project, we investigate the relationship between rainfall data and monthly rainfall erosivity for the period with available high-resolution precipitation records. We then extend this relationship backward in time to reconstruct historical erosivity. Using this long-term time series, we forecast future erosivity patterns with a ConvLSTM model. This approach allows for a better understanding of past trends, provides a foundation for predicting future soil erosion risks, and supports more informed land management and conservation planning.",
+      "highlights": ["Rainfall Erosivity", "Time Series Analysis", "ConvLSTM", "Forecasting"],
+      "startDate": "May 2025",
+      "endDate": "Ongoing",
+      "url": ""
     }
   ]
 }
