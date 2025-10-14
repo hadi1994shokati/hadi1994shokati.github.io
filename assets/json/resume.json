@@ -401,6 +401,14 @@
       "startDate": "Jan 2021",
       "endDate": "Dec 2022",
       "url": "https://jdesert.ut.ac.ir/article_93548.html"
+    },
+    {
+      "name": "Fresh water springs identification",
+      "summary": "In this project, we aimed to identify submarine freshwater springs using remote sensing data. By analyzing multiple derived layers along with field measurements, we successfully located freshwater springs beneath the Persian Gulf. This approach not only enhances our understanding of underwater hydrogeology but also provides valuable information for coastal water resource management, environmental monitoring, and sustainable exploitation of submarine freshwater sources.",
+      "highlights": ["Freshwater Springs", "Remote Sensing", "Hydrogeology", "Environmental Monitoring"],
+      "startDate": "Jan 2022",
+      "endDate": "Apr 2022",
+      "url": "https://wej.ut.ac.ir/article_4590.html"
     }
   ]
 }
