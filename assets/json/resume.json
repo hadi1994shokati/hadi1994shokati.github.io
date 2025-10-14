@@ -330,6 +330,22 @@
       "endDate": "Nov 2024",
       "url": "https://www.sciencedirect.com/science/article/pii/S0341816225002565"
     },
+      {
+      "name": "Soil Erosion Modeling",
+      "summary": "This project employs a hybrid modeling approach to estimate soil erosion. First, erosion and deposition are modeled using the WATSEDM framework. The resulting outputs, along with additional datasets, are then used as inputs for a deep learning model. For validation, outputs from our previous project, (Erosion-SAM) are utilized. This approach can provide a more accurate and robust prediction of soil erosion patterns by combining the strengths of physically-based models with the adaptive capabilities of machine learning.",
+      "highlights": ["Soil Erosion",  "Hybrid Modeling", "WaTEM/SEDEM", "Deep Learning"],
+      "startDate": "May 2025",
+      "endDate": "Ongoing",
+      "url": ""
+    },
+    {
+      "name": "Rainfall Erosivity Forecasting",
+      "summary": "In this project, we investigate the relationship between rainfall data and monthly rainfall erosivity for the period with available high-resolution precipitation records. We then extend this relationship backward in time to reconstruct historical erosivity. Using this long-term time series, we forecast future erosivity patterns with a ConvLSTM model. This approach allows for a better understanding of past trends, provides a foundation for predicting future soil erosion risks, and supports more informed land management and conservation planning.",
+      "highlights": ["Rainfall Erosivity", "Time Series Analysis", "ConvLSTM", "Forecasting"],
+      "startDate": "May 2025",
+      "endDate": "Ongoing",
+      "url": ""
+    },
     {
       "name": "Rapid Flood Mapping",
       "summary": "The Rapid Flood Mapping project compares two deep learning approaches for detecting flooded areas from aerial imagery: a fine-tuned Segment Anything Model (SAM) and a U-Net with a ResNet backbone. High-resolution aerial images captured shortly after major flood events were used to train and evaluate both models. This project demonstrates the potential of AI-driven flood mapping for rapid disaster assessment, emergency response planning, infrastructure risk analysis, and environmental monitoring, enabling authorities and organizations to make faster and more informed decisions in the aftermath of floods.",
@@ -385,22 +401,6 @@
       "startDate": "Jan 2021",
       "endDate": "Dec 2022",
       "url": "https://jdesert.ut.ac.ir/article_93548.html"
-    },
-    {
-      "name": "Soil Erosion Modeling",
-      "summary": "This project employs a hybrid modeling approach to estimate soil erosion. First, erosion and deposition are modeled using the WATSEDM framework. The resulting outputs, along with additional datasets, are then used as inputs for a deep learning model. For validation, outputs from our previous project, (Erosion-SAM) are utilized. This approach can provide a more accurate and robust prediction of soil erosion patterns by combining the strengths of physically-based models with the adaptive capabilities of machine learning.",
-      "highlights": ["Soil Erosion",  "Hybrid Modeling", "WaTEM/SEDEM", "Deep Learning"],
-      "startDate": "May 2025",
-      "endDate": "Ongoing",
-      "url": ""
-    },
-    {
-      "name": "Rainfall Erosivity Forecasting",
-      "summary": "In this project, we investigate the relationship between rainfall data and monthly rainfall erosivity for the period with available high-resolution precipitation records. We then extend this relationship backward in time to reconstruct historical erosivity. Using this long-term time series, we forecast future erosivity patterns with a ConvLSTM model. This approach allows for a better understanding of past trends, provides a foundation for predicting future soil erosion risks, and supports more informed land management and conservation planning.",
-      "highlights": ["Rainfall Erosivity", "Time Series Analysis", "ConvLSTM", "Forecasting"],
-      "startDate": "May 2025",
-      "endDate": "Ongoing",
-      "url": ""
     }
   ]
 }
