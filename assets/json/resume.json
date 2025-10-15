@@ -237,14 +237,14 @@
       ]
     },
     {
-      "name": "UAV Piloting",
+      "name": "Other",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
+        "UAV Piloting",
         "Flight Operations",
         "Photogrammetry",
-        "Spatial Data Processing",
-        "Drone Mapping"
+        "Spatial Data Processing"
       ]
     }
   ],
@@ -324,7 +324,7 @@
   "projects": [
     {
       "name": "Erosion-SAM",
-      "summary": "The Erosion-SAM project focuses on the automatic detection of soil erosion and sedimentation in aerial imagery. Following heavy rainfall events, high-resolution aerial images were captured over affected areas, where erosion and sediment features were manually segmented. These annotated images were then used to fine-tune the Segment Anything Model (SAM) through transfer learning, addressing the common issue of limited labeled data in soil erosion research. The resulting Erosion-SAM model can accurately identify erosion and sediment features from aerial images without requiring additional training. Its outputs are valuable for training and validating machine learning models, as well as for environmental monitoring, natural resource management, and insurance assessments.",
+      "summary": "The Erosion-SAM project focuses on the automatic detection of soil erosion and deposition in aerial imagery. After heavy rainfall events, high-resolution aerial images were captured over affected areas. Erosion and deposition features were then manually segmented. These annotated images were used to fine-tune the Segment Anything Model (SAM) through transfer learning, addressing the common issue of limited labeled data in soil erosion studies. The resulting Erosion-SAM model can accurately identify erosion and deposition features from aerial images without additional training. Its outputs are valuable for training and validating machine learning models, as well as for environmental monitoring, natural resource management, and insurance assessments.",
       "highlights": ["Fine-tuning", "Transfer Learning", "Soil Erosion", "Segment Anything Model (SAM)"],
       "startDate": "Aug 2023",
       "endDate": "Nov 2024",
@@ -357,14 +357,14 @@
     {
       "name": "Soil Moisture Estimation",
       "summary": "This project compares the effectiveness of UAV-based hyperspectral data and satellite-based multispectral data for estimating surface soil moisture using  machine learning. High-resolution hyperspectral imagery was collected using UAVs, while multispectral data was obtained from Sentinel-2 and Landsat-8/9 satellites. Several machine learning models were trained and evaluated on both datasets. The study demonstrates that UAV-based hyperspectral sensing, combined with machine learning, can provide higher-resolution and more accurate soil moisture maps, which are valuable for precision agriculture, hydrology, and resource management.",
-      "highlights": ["Soil Moisture", "Hyperspectral", "Multispectral", "Machine Learning", "Random Forest", "Support Vector Machine", "Gradient Boosting"],
+      "highlights": ["Soil Moisture", "Hyperspectral", "Multispectral", "Machine Learning", "Random Forest"],
       "startDate": "Jan 2021",
       "endDate": "Dec 2023",
       "url": "https://www.mdpi.com/2072-4292/16/11/1962"
     },
     {
-      "name": "Visible UAV Sensors in Soil Moisture Estimation",
-      "summary": "This project investigates the potential of high-resolution visible UAV imagery to estimate surface soil moisture. By capturing aerial images immediately after irrigation and rainfall events, the project extracts spectral indices that are sensitive to soil moisture variations. These indices are then analyzed to assess the relationship between image-derived data and in-situ soil moisture measurements. The study demonstrates that UAV-based visible imagery can provide a low-cost, rapid, and non-invasive method for monitoring soil moisture, offering valuable insights for precision agriculture, irrigation management, and sustainable land use planning.",
+      "name": "Potential of Visible UAV Imagery in Soil Moisture Estimation",
+      "summary": "This project investigates the potential of high-resolution visible UAV imagery to estimate surface soil moisture. By capturing aerial images immediately after irrigation and rainfall events, the project extracts spectral indices that are sensitive to soil moisture variations. These indices are then analyzed to assess the relationship between image-derived data and in-situ soil moisture measurements. The study demonstrates that UAV-based visible imagery can provide a low-cost and rapid method for monitoring soil moisture, offering valuable insights for precision agriculture, irrigation management, and sustainable land use planning.",
       "highlights": ["Soil Moisture", "Visible Imagery", "UAV", "Machine Learning"],
       "startDate": "Jan 2021",
       "endDate": "Dec 2023",
@@ -389,7 +389,7 @@
     {
       "name": "Forest Fire Susceptibility Mapping",
       "summary": "This project develops a bi-layer predictive ensemble (BIPE) framework for mapping forest fire susceptibility across Germany. By integrating multiple machine learning algorithms and environmental factors, the BIPE approach enhances the accuracy of fire risk predictions. The study identifies high-risk areas, providing valuable information for forest management, fire prevention strategies, and emergency response planning. The results contribute to improving our understanding of forest fire dynamics and support efforts to mitigate the impacts of wildfires on ecosystems and communities.",
-      "highlights": ["Forest Fire", "Susceptibility Mapping", "Machine Learning", "Ensemble Approach"],
+      "highlights": ["Forest Fire", "Susceptibility Mapping", "Machine Learning"],
       "startDate": "Jan 2022",
       "endDate": "Dec 2024",
       "url": "https://www.mdpi.com/2072-4292/17/1/7"
