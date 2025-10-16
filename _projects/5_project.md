@@ -1,80 +1,141 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: Soil Moisture Estimation
+description: Comparing UAV hyperspectral and satellite multispectral approaches
+img: assets/img/soil-moisture-uav.png
+importance: 5
 category: work
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<style>
+  .project p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+</style>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project provides a comprehensive comparison of UAV-based hyperspectral and satellite-based multispectral data for soil moisture estimation using machine learning techniques, offering insights into the optimal remote sensing approach for precision agriculture.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<br>
+
+### Overview
+
+Soil moisture is a critical variable in agriculture, hydrology, and environmental monitoring. Accurate soil moisture estimation enables optimized irrigation management, improved crop yield predictions, and better understanding of hydrological processes. Remote sensing offers a non-destructive, spatially-explicit approach to soil moisture monitoring, but the choice between different platforms and sensors significantly impacts accuracy and operational feasibility.
+
+<br>
+
+### Research Objectives
+
+This study compares two distinct remote sensing approaches for soil moisture estimation:
+
+1. **UAV-Based Hyperspectral Imaging**: High spatial resolution, detailed spectral information, but limited spatial coverage
+2. **Satellite-Based Multispectral Imaging**: Large spatial coverage, lower spectral resolution, freely available data
+
+The comparison aims to determine which approach provides superior soil moisture estimation accuracy and identify the optimal trade-offs between spatial resolution, spectral detail, and operational constraints.
+
+<br>
+
+### Methodology
+
+#### Data Acquisition Campaign
+
+The study involved extensive field data collection campaigns conducted over **14 different dates from September 2021 to January 2023**. This multi-temporal approach ensured capture of diverse soil moisture conditions across seasons and weather patterns.
+
+<br>
+
+
+#### Used Data
+
+**1. Satellite Multispectral Data**:
+- Sentinel-2: 10-20 m spatial resolution
+- Landsat-8/9: 30 m spatial resolution
+- Broader spectral bands
+- Regular revisit times
+- Free and open access
+
+<br>
+
+**2. UAV Hyperspectral Data Acquisition**:
+
+The aerial data of the region were captured by mounting the **CoSpectroCam** sensor on a **DJI Matrice 100 UAV**. The CoSpectroCam is an advanced optical coaxial system that combines an RGB camera with a spectrometer, providing both high-resolution imagery and detailed spectral information.
+
+**CoSpectroCam Specifications**:
+- **RGB Camera**: 700 × 800 pixels resolution
+- **Spectrometer**: High spectral resolution of 0.35 nm
+- **Spectral Range**: 339.6 nm to 1028.8 nm
+- **Spectral Bands**: 2048 bands covering UV to near-infrared
+
+**Key Advantages**:
+- High spatial resolution imagery
+- Captures subtle variations in soil properties
+- Flexible acquisition timing
+- Detailed spectral information across 2048 bands
+
+<br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/uav-equipment.jpg" title="UAV Equipment" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    (a) DJI Matrice 100 UAV equipped with CoSpectroCam and RGB sensors, (b) CoSpectroCam sensor, and (c) RGB camera used for high-resolution imaging.
 </div>
+
+<br>
+
+
+#### Modelling
+
+We employed several machine learning algorithms to establish relationships between spectral signatures and soil moisture content:
+
+
+<br>
+
+### Performance Comparison
+
+The Taylor diagram below illustrates the comprehensive performance comparison of soil moisture estimation models developed using three different remote sensing data sources: Sentinel-2, Landsat-8/9, and UAV hyperspectral data.
+
+<br>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/taylor-diagram-soil-moisture.jpg" title="Taylor Diagram Performance Comparison" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Taylor diagram illustrating the performance of soil moisture estimation models developed using Sentinel-2, Landsat-8/9, and UAV hyperspectral data. The diagram shows correlation, standard deviation, and root-mean-square error for each approach.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<br>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Applications
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Precision Agriculture**
 
-{% raw %}
+**Hydrological Modeling**
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**Environmental Monitoring**
 
-{% endraw %}
+**Research and Development**
+
+
+
+<br>
+
+### Future Directions
+
+- Integration of UAV and satellite data through multi-sensor fusion
+- Extension to other soil properties (organic matter, texture)
+
+
+<br>
+
+### Related Publications
+
+This work builds upon and extends our previous research on soil moisture estimation:
+
+{% cite shokati2025soilmoisture %}
+
+{% cite shokati2024randomforest %}
