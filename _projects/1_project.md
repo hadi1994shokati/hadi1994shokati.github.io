@@ -1,39 +1,32 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Erosion-SAM
+description: Erosion and deposition segmentation
+img: assets/img/Erosion-SAM.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The Erosion-SAM project aims to automatically detect soil erosion and deposition using high-resolution aerial imagery (0.2 m). For this purpose, the study area was defined as the southeastern region of Bavaria, Germany.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
+The project involved acquiring orthophotos following heavy rainfall events in erosion-prone areas between May and September of 2011 and 2012. To determine suitable acquisition times, RADOLAN rainfall data, with a spatial resolution of 1 × 1 km², were analyzed. When rainfall events met specific thresholds—either a total rainfall of at least 10 mm or a maximum 30-minute intensity exceeding 10 mm/h—indicating high erosion potential, aerial surveys were conducted using a small aircraft within 30 days after the identified erosive event.
+The images were then georeferenced. We manually identified and masked 405 individual parcels from the aerial imagery that exhibited erosion and deposition features such as ephemeral gullies, rills and sediment fans. The fields were categorized into grassland (n = 128) and cropland (n = 277), whereas the latter was then subdivided into vegetated cropland (n = 131) and bare cropland (n = 146).
+<!-- 
     ---
     layout: page
     title: project
     description: a project with a background image
     img: /assets/img/12.jpg
-    ---
+    --- -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Erosion-SAM1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Add your image caption here.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
