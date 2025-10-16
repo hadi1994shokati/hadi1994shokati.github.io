@@ -28,16 +28,8 @@ The images were then georeferenced. We manually identified and masked **405 indi
 <div class="caption">
     A) soil erosion map of Germany in a 75 × 75 m raster and b) examples of manual segmentation of agricultural fields with erosive rainfall, showing erosion and deposition features across different land covers.
 </div>
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div> -->
 
-The Segment Anything Model (SAM) represents a major breakthrough in image segmentation technology. Although SAM delivers high accuracy with minimal or no training data, its performance can be challenged by complex tasks such as detecting soil erosion and deposition. To overcome these limitations, we applied fine-tuning—a transfer learning approach that adapts a pre-trained model (including its architecture and weights) to a specific task rather than training a new model from scratch. This method improves performance, reduces the need for large labeled datasets, lowers computational demands, and saves time. Pre-training on a broad dataset proves especially beneficial when the task-specific dataset is limited in size or labeling.
+The **<a href="https://segment-anything.com/" target="_blank">Segment Anything Model (SAM)</a>** represents a major breakthrough in image segmentation technology. Although SAM delivers high accuracy with minimal or no training data, its performance can be challenged by complex tasks such as detecting soil erosion and deposition. To overcome these limitations, we applied fine-tuning—a transfer learning approach that adapts a pre-trained model (including its architecture and weights) to a specific task rather than training a new model from scratch. This method improves performance, reduces the need for large labeled datasets, lowers computational demands, and saves time. Pre-training on a broad dataset proves especially beneficial when the task-specific dataset is limited in size or labeling.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
