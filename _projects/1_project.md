@@ -63,7 +63,22 @@ We applied **fine-tuning** to adapt SAM's pre-trained weights to soil erosion de
 
 ## Results
 
-The fine-tuned Erosion-SAM model successfully detected soil erosion features across different land cover types. The model showed strong segmentation performance with accurate delineation of erosion features such as rills and gullies, successful detection of deposition zones (sediment fans), and robust generalization to different field conditions.
+The fine-tuned Erosion-SAM model successfully detected soil erosion features across different land cover types. We evaluated multiple fine-tuning approaches and compared them against the original SAM model.
+
+### Performance Metrics
+
+The table below shows the performance of different approaches across land cover types. The numbers in **<span style="color: #3498db;">blue</span>** and **<span style="color: #e67e22;">orange</span>** represent the increase and decrease in performance compared to the original SAM baseline.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Erosion-SAM-table.png" title="Performance metrics comparison" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Performance comparison of different fine-tuning approaches (Cropping, Resizing without prompt, Resizing with prompt) against the original SAM baseline across different land cover types. Metrics include recall, precision, Dice coefficient, and IoU. The best performing approach (Resizing with prompt) achieved significant improvements: total recall of 0.81 (+0.25), precision of 0.76 (+0.41), Dice of 0.78 (+0.35), and IoU of 0.64 (+0.37) compared to original SAM.
+</div>
+
+The **Resizing approach with prompt** demonstrated the best overall performance with substantial improvements across all metrics and land cover types, particularly excelling in grassland detection (IoU: 0.75, +0.38 improvement).
 
 ### Segmentation Examples
 
