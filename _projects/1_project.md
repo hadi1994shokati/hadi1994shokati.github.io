@@ -21,14 +21,10 @@ Soil erosion by water poses significant challenges in agricultural landscapes. T
 **Location**: Southeastern Bavaria, Germany
 
 **Data Acquisition**:
-- **Period**: May to September, 2011 and 2012
-- **Resolution**: 0.2 m aerial orthophotos
-- **Trigger**: RADOLAN rainfall data (1 × 1 km²) to identify erosive events (≥10 mm total rainfall or ≥10 mm/h max 30-min intensity)
-- **Timing**: Aerial surveys within 30 days after erosive events
+The project involved acquiring orthophotos following heavy rainfall events in erosion-prone areas **between May and September of 2011 and 2012**. To determine suitable acquisition times, **RADOLAN rainfall data**, with a spatial resolution of **1 × 1 km²**, were analyzed. When rainfall events met specific thresholds (either a total rainfall of at least 10 mm or a maximum 30-minute intensity exceeding 10 mm/h) indicating high erosion potential, aerial surveys were conducted using a small aircraft within 30 days after the identified erosive event.
 
-**Dataset**: 405 manually annotated images showing:
-- Ephemeral gullies, rills, sediment fans, and sheet erosion
-- Land cover categories:
+**Dataset**: 
+The images were then georeferenced. We manually identified and masked **405 individual images** from the aerial imagery that exhibited erosion and deposition features such as ephemeral gullies, rills and sediment fans. The fields were categorized into 3 land cover categories:
   - Grassland: 128 images
   - Cropland: 277 images (vegetated: 131, bare: 146)
 
@@ -38,7 +34,7 @@ Soil erosion by water poses significant challenges in agricultural landscapes. T
     </div>
 </div>
 <div class="caption">
-    A) Soil erosion map of Germany in a 75 × 75 m raster and B) examples of manual segmentation of agricultural fields with erosive rainfall, showing erosion and deposition features across different land covers.
+    A) Soil erosion map of Germany and B) examples of manual segmentation of agricultural fields with erosive rainfall, showing erosion and deposition features across different land covers.
 </div>
 
 ## Methodology
@@ -55,7 +51,7 @@ We applied **fine-tuning** to adapt SAM's pre-trained weights to soil erosion de
 </div>
 
 **Data Processing**:
-- Large orthophotos divided into 256×256 pixel patches (step size: 256, no overlap)
+- Large orthophotos divided into 256×256 pixel patches
 - Empty masks filtered out
 - Data split: 70% training, 15% validation, 15% testing
 
@@ -84,11 +80,7 @@ The fine-tuned Erosion-SAM model successfully detected soil erosion features acr
 The model demonstrated effective performance across varying conditions including different lighting, vegetation cover, and agricultural field types.
 
 ## Applications
-
-- **Precision Agriculture**: Automated erosion monitoring for farm management
-- **Environmental Monitoring**: Large-scale erosion assessment
-- **Soil Conservation**: Rapid identification of erosion hotspots
-- **Research**: Large-scale erosion studies
+The generated data sets can be applied to machine learning-based SE modeling, providing accurate and consistent training data across different land cover types, and offering a reliable alternative to traditional SE models. In addition, erosion-SAM can make a valuable contribution to the precise monitoring of SE with high temporal resolution over large areas, and its results could benefit reinsurance and insurance-related risk solutions.
 
 ## Publication
 
