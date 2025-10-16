@@ -95,12 +95,13 @@ The table below shows the performance of different approaches across land cover 
         {% include figure.liquid path="assets/img/Erosion-SAM-table.png" title="Performance metrics comparison" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Performance comparison of different fine-tuning approaches (Cropping, Resizing without prompt, Resizing with prompt) against the original SAM baseline across different land cover types. Metrics include recall, precision, Dice coefficient, and IoU. The best performing approach (Resizing with prompt) achieved significant improvements: total recall of 0.81 (+0.25), precision of 0.76 (+0.41), Dice of 0.78 (+0.35), and IoU of 0.64 (+0.37) compared to original SAM.
+</div>
 
-
-
+The **Resizing approach with prompt** demonstrated the best overall performance with substantial improvements across all metrics and land cover types, particularly excelling in grassland detection (IoU: 0.75, +0.38 improvement).
 
 <br>
-
 
 #### Segmentation Examples
 
