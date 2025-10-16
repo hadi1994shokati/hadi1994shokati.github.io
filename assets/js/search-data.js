@@ -428,7 +428,7 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "projects-erosion-sam",
           title: 'Erosion-SAM',
-          description: "Erosion and deposition segmentation",
+          description: "Semantic segmentation of soil erosion by water",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
