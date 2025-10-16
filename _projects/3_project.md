@@ -1,81 +1,115 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Rainfall Erosivity Forecasting
+description: Historical reconstruction and future prediction using ConvLSTM
+img: assets/img/rainfall-erosivity.png
 importance: 3
 category: work
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<style>
+  .project p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+</style>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This **ongoing project** focuses on reconstructing historical rainfall erosivity patterns and forecasting future erosion risks using deep learning and long-term precipitation data from Germany.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<br>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Project Overview
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Rainfall erosivity (a measure of the erosive power of rainfall) is a critical factor in soil erosion modeling and prediction. Understanding both historical trends and future patterns of rainfall erosivity is essential for effective soil conservation planning and climate change adaptation strategies. This project develops a comprehensive approach to extend our understanding of erosivity across nearly a century (1931–2030).
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<br>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Methodology
 
-{% raw %}
+The project employs a three-phase approach spanning 95 years of data:
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+<br>
 
-{% endraw %}
+#### Phase 1: Relationship Development (2001–2025)
+
+**Data Source**: RADOLAN high-resolution precipitation data
+- **Temporal resolution**: 5-minute intervals
+- **Spatial coverage**: Germany
+- **Period**: 2001 to 2025
+
+We investigate the relationship between rainfall characteristics and monthly rainfall erosivity using the RADOLAN dataset, which provides the highest resolution precipitation records available for Germany. This analysis establishes statistical and machine learning-based relationships between easily measurable rainfall metrics and the more complex erosivity index.
+
+<br>
+
+#### Phase 2: Historical Reconstruction (1931–2000)
+
+Using the relationships established in Phase 1, we reconstruct historical monthly rainfall erosivity for the period **1931 to 2000**. This backward extension enables:
+- Analysis of long-term erosivity trends over 70 years
+- Assessment of climate variability impacts on erosion potential
+- Identification of historical erosion risk periods
+- Establishment of baseline conditions for comparison
+
+This historical reconstruction provides crucial context for understanding how rainfall erosivity has evolved over time and helps identify whether current patterns represent significant departures from historical norms.
+
+<br>
+
+#### Phase 3: Future Forecasting (2026–2030)
+
+**Model**: Convolutional Long Short-Term Memory (ConvLSTM) Network
+
+With the complete time series from 1931 to 2025 (95 years of continuous data), we train a ConvLSTM deep learning model to forecast monthly rainfall erosivity for **2026 to 2030**. The ConvLSTM architecture is particularly suited for this task because it:
+- Captures both spatial and temporal patterns in erosivity data
+- Learns long-term dependencies in the time series
+- Handles the complex, non-linear relationships in climate-driven processes
+- Accounts for spatial autocorrelation in erosivity patterns
+
+
+
+<br>
+
+### Study Area
+
+**Location**: Germany
+
+**Temporal Coverage**:
+- Historical reconstruction: 1931–2000 (70 years)
+- High-resolution data: 2001–2025 (25 years)
+- Future forecast: 2026–2030 (5 years)
+- **Total span**: 100 years (1931–2030)
+
+<br>
+
+### Key Innovations
+
+1. **Long-term Time Series**: Creation of a 95-year continuous erosivity dataset (1931–2025), one of the longest available for Germany
+
+2. **Multi-decadal Perspective**: Analysis spanning nearly a century enables detection of long-term climate trends and cyclical patterns
+
+3. **Deep Learning Forecasting**: Application of ConvLSTM for erosivity prediction, leveraging both temporal dynamics and spatial patterns
+
+4. **Bridging Data Gaps**: Integration of modern high-resolution data with historical records through statistical relationships
+
+<br>
+
+### Expected Outcomes
+
+This project will provide:
+
+- **Historical Context**: 70 years of reconstructed monthly erosivity data (1931–2000) revealing long-term trends and variability
+
+- **Complete Time Series**: Comprehensive 95-year dataset (1931–2025) for climate analysis and model training
+
+- **Future Predictions**: Five-year erosivity forecasts (2026–2030) for proactive soil conservation planning
+
+- **Risk Assessment**: Identification of periods with elevated erosion risk for targeted land management interventions
+
+- **Climate Change Insights**: Evidence of temporal trends in erosivity related to climate variability and change
+
+- **Decision Support**: Tools for policymakers and land managers to anticipate and prepare for erosion risks
+
+<br>
+
+
+
+

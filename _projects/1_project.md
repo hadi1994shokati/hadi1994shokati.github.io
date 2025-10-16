@@ -115,7 +115,6 @@ The **Resizing approach with prompt** demonstrated the best overall performance 
     Examples of erosion feature segmentation by Erosion-SAM showing original images, ground truth, and model predictions.
 </div>
 
-The model demonstrated effective performance across varying conditions including different lighting, vegetation cover, and agricultural field types.
 
 <br>
 
