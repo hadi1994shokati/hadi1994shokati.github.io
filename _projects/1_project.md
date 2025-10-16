@@ -83,6 +83,8 @@ The table below shows the performance of different approaches across land cover 
 </div>
 
 
+
+
 ### Segmentation Examples
 
 <!-- Add your segmentation result figures here when available -->
