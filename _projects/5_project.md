@@ -50,9 +50,6 @@ The study involved extensive field data collection campaigns conducted over **14
 **1. Satellite Multispectral Data**:
 - Sentinel-2: 10-20 m spatial resolution
 - Landsat-8/9: 30 m spatial resolution
-- Broader spectral bands
-- Regular revisit times
-- Free and open access
 
 <br>
 
@@ -86,9 +83,9 @@ The aerial data of the region were captured by mounting the **CoSpectroCam** sen
 <br>
 
 
-#### Modelling
+### Modelling
 
-We employed several machine learning algorithms to establish relationships between spectral signatures and soil moisture content:
+We employed **several machine learning algorithms** to establish relationships between spectral signatures and soil moisture content:
 
 
 <br>
@@ -112,13 +109,13 @@ The Taylor diagram below illustrates the comprehensive performance comparison of
 
 ### Applications
 
-**Precision Agriculture**
+Precision Agriculture
 
-**Hydrological Modeling**
+Hydrological Modeling
 
-**Environmental Monitoring**
+Environmental Monitoring
 
-**Research and Development**
+Research and Development
 
 
 
@@ -132,10 +129,3 @@ The Taylor diagram below illustrates the comprehensive performance comparison of
 
 <br>
 
-### Related Publications
-
-This work builds upon and extends our previous research on soil moisture estimation:
-
-{% cite shokati2025soilmoisture %}
-
-{% cite shokati2024randomforest %}
