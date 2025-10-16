@@ -19,11 +19,15 @@ The **Erosion-SAM** project presents an automated approach for semantic segmenta
 
 {% cite shokati2025erosionsam %}
 
-## Overview
+<br>
+
+### Overview
 
 Soil erosion by water poses significant challenges in agricultural landscapes. Traditional detection methods rely on manual field surveys or visual interpretation of aerial imagery—processes that are time-consuming and subjective. This project leverages the **<a href="https://segment-anything.com/" target="_blank">Segment Anything Model (SAM)</a>**, a foundation model pre-trained on over 1 billion masks, and fine-tunes it for the specialized task of identifying soil erosion features.
 
-## Study Area and Dataset
+<br>
+
+### Study Area and Dataset
 
 **Location**: Southeastern Bavaria, Germany
 
@@ -44,7 +48,9 @@ The images were then georeferenced. We manually identified and masked **405 indi
     A) Soil erosion map of Germany and B) examples of manual segmentation of agricultural fields with erosive rainfall, showing erosion and deposition features across different land covers.
 </div>
 
-## Methodology
+<br>
+
+### Methodology
 
 We applied **fine-tuning** to adapt SAM's pre-trained weights to soil erosion detection. Fine-tuning is a transfer learning approach that modifies a pre-trained model for a specific task, improving performance while reducing the need for large labeled datasets and computational resources.
 
@@ -57,10 +63,14 @@ We applied **fine-tuning** to adapt SAM's pre-trained weights to soil erosion de
     Overview of the Segment Anything Model (SAM) architecture. The fine-tuning process adapts the model to soil erosion detection.
 </div>
 
+<br>
+
 **Data Processing**:
 - Large orthophotos divided into 256×256 pixel patches
 - Empty masks filtered out
 - Data split: 70% training, 15% validation, 15% testing
+
+<br>
 
 **Model Configuration**:
 - Base: SAM (vit_b variant)
@@ -68,11 +78,15 @@ We applied **fine-tuning** to adapt SAM's pre-trained weights to soil erosion de
 - Loss: Combined Dice loss and focal loss
 - Strategy: Fine-tuning the mask decoder
 
-## Results
+<br>
+
+### Results
 
 The fine-tuned Erosion-SAM model successfully detected soil erosion features across different land cover types. We evaluated multiple fine-tuning approaches and compared them against the original SAM model.
 
-### Performance Metrics
+<br>
+
+#### Performance Metrics
 
 The table below shows the performance of different approaches across land cover types. The numbers in **<span style="color: #3498db;">blue</span>** and **<span style="color: #e67e22;">orange</span>** represent the increase and decrease in performance compared to the original SAM baseline.
 
@@ -85,7 +99,10 @@ The table below shows the performance of different approaches across land cover 
 
 
 
-### Segmentation Examples
+<br>
+
+
+#### Segmentation Examples
 
 <!-- Add your segmentation result figures here when available -->
 <div class="row">
@@ -99,10 +116,16 @@ The table below shows the performance of different approaches across land cover 
 
 The model demonstrated effective performance across varying conditions including different lighting, vegetation cover, and agricultural field types.
 
-## Applications
+<br>
+
+
+### Applications
 The generated data sets can be applied to machine learning-based SE modeling, providing accurate and consistent training data across different land cover types, and offering a reliable alternative to traditional SE models. In addition, erosion-SAM can make a valuable contribution to the precise monitoring of SE with high temporal resolution over large areas, and its results could benefit reinsurance and insurance-related risk solutions.
 
-## Publication
+<br>
+
+
+### Publication
 
 **Citation:**
 > Shokati, H., Engelhardt, A., Seufferheld, K., Taghizadeh, R., Fiener, P., Lensch, H., & Scholten, T. (2025). Erosion-SAM: Semantic segmentation of soil erosion by water. *CATENA*, 254, 108954.
