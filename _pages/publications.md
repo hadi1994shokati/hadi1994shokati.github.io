@@ -7,6 +7,13 @@ nav: true
 nav_order: 1
 ---
 
+<style>
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+</style>
+
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->

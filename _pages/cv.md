@@ -9,3 +9,10 @@ description:
 toc:
   sidebar: left
 ---
+
+<style>
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+</style>

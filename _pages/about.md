@@ -27,6 +27,14 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+<style>
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+</style>
+
 I am a **Soil Scientist** at the **[University of Tübingen, Germany](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/doctoral-students/hadi-shokati/)**, combining **deep learning and remote sensing** to model **soil and environmental processes** in agricultural systems.
 With experience in **UAV photogrammetry, computer vision, and spatial data processing**, I’m passionate about applying **data-driven approaches** to address challenges in **agricultural, environmental, and land monitoring** applications.
 
