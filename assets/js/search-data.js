@@ -90,8 +90,8 @@ ninja.data = [{
           description: "Semantic segmentation of soil erosion by water",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-hybrid-soil-erosion-modeling",
-          title: 'Hybrid Soil Erosion Modeling',
+            },},{id: "projects-soil-erosion",
+          title: 'Soil Erosion',
           description: "Combining physics-based and deep learning approaches",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
@@ -105,8 +105,8 @@ ninja.data = [{
           description: "Using fine-tuned SAM and ResNet-backboned U-Net",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-soil-moisture-estimation",
-          title: 'Soil Moisture Estimation',
+            },},{id: "projects-soil-moisture",
+          title: 'Soil Moisture',
           description: "Comparing UAV hyperspectral and satellite multispectral approaches",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
