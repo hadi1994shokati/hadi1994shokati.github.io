@@ -451,9 +451,9 @@ ninja.data = [{
           description: "Comparing UAV hyperspectral and satellite multispectral approaches",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-land-suitability-for-wheat-cultivation",
+          title: 'Land Suitability for Wheat Cultivation',
+          description: "Ensemble MCDM and machine learning approaches for agricultural land assessment",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
