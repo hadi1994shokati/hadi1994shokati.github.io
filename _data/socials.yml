@@ -5,8 +5,8 @@
 email: hadi.shokati@uni-tuebingen.de # your University of Tübingen email
 github_username: hadi1994shokati # your GitHub username
 scholar_userid: https://scholar.google.com/citations?user=thqzx8QAAAAJ&hl=en # your Google Scholar ID - replace with your actual ID
-linkedin_username: https://www.linkedin.com/in/hadi-shokati-7071821a7/?originalSubdomain=ir # your LinkedIn username 
-research_gate_profile: https://www.researchgate.net/profile/Hadi-Shokati # your ResearchGate profile - replace with your actual profile ID
+linkedin_username: https://www.linkedin.com/in/hadi-shokati-7071821a7/ # your LinkedIn username 
+research_gate_profile: https://www.researchgate.net/profile/Hadi-Shokati?ev=hdr_xprf # your ResearchGate profile - replace with your actual profile ID
 orcid_id: 0000-0003-2833-032X # your ORCID ID - replace if you have one
 work_url: https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/doctoral-students/hadi-shokati/ # University of Tübingen profile page
-rss_icon: true # display RSS icon
+rss_icon: false # display RSS icon
