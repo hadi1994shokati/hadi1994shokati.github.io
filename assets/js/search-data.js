@@ -441,8 +441,8 @@ ninja.data = [{
           description: "Historical reconstruction and future prediction using ConvLSTM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-rapid-flood-mapping",
-          title: 'Rapid Flood Mapping',
+            },},{id: "projects-flood-mapping",
+          title: 'Flood Mapping',
           description: "Using fine-tuned SAM and ResNet-backboned U-Net",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
