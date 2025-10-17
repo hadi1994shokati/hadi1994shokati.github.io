@@ -9,7 +9,7 @@ related_publications: true
 ---
 
 <style>
-  .project p {
+  p {
     text-align: justify;
     text-justify: inter-word;
   }

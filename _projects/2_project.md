@@ -9,52 +9,33 @@ related_publications: false
 ---
 
 <style>
-  .project p {
+  p {
     text-align: justify;
     text-justify: inter-word;
   }
 </style>
 
-This **ongoing project** employs a novel hybrid modeling approach to estimate soil erosion by combining the strengths of physically-based models with the adaptive capabilities of deep learning.
+This **ongoing project** develops an integrated modeling approach for soil erosion assessment by combining traditional physical process models with advanced machine learning techniques.
 
 <br>
 
 ### Project Overview
 
-Soil erosion modeling traditionally relies on either physically-based models or data-driven approaches, each with their own strengths and limitations. This project bridges these two paradigms by developing a hybrid framework that leverages both methodologies for more accurate and robust soil erosion predictions.
+Soil erosion modeling has traditionally relied on either physically-based models or data-driven approaches. This project explores innovative ways to integrate these complementary methodologies for improved erosion predictions in agricultural landscapes.
 
 <br>
 
-### Methodology
 
-#### Three-Stage Hybrid Approach
+### Study Context
 
-The project employs a three-stage modeling framework:
-
-<br>
-
-**Stage 1: Physics-Based Modeling (WaTEM/SEDEM)**
-
-The <a href="https://www.kuleuven.be/geography/frg/modelling/erosion/watem" target="_blank">WaTEM/SEDEM</a> framework serves as the foundation for estimating soil erosion and deposition patterns. 
+The research builds upon our previous work in [Erosion-SAM]({% link _projects/1_project.md %}), extending automated erosion detection capabilities toward predictive modeling frameworks.
 
 <br>
 
-**Stage 2: Deep Learning Integration**
+### Expected Contributions
 
-The outputs from WaTEM/SEDEM, along with additional environmental datasets, are used as inputs for a deep learning model. 
-
-<br>
-
-**Stage 3: Validation with Erosion-SAM**
-
-For model validation and performance assessment, we utilize outputs from our previous [Erosion-SAM]({% link _projects/1_project.md %}) project.
-
-<br>
-
-### Expected Outcomes
-
-The hybrid modeling framework is expected to provide:
-- **More accurate predictions** of soil erosion patterns by combining physical understanding with data-driven learning
-- **Robust estimates** that work across different landscapes and conditions
-- **Improved spatial resolution** of erosion and deposition patterns
-- **Transferable methodology** applicable to other regions and scales
+This research aims to advance:
+- **Improved accuracy** in soil erosion predictions across diverse landscapes
+- **Enhanced understanding** of erosion processes through multi-method integration
+- **Practical tools** for soil conservation planning and management
+- **Transferable methodologies** applicable to different regions and scales
