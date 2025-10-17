@@ -12,6 +12,7 @@ profile:
     <p>Room W310, Westbau</p>
     <p>Rümelinstraße 19 – 23</p>
     <p>72070 Tübingen, Germany</p>
+    <p><a href="mailto:hadi.shokati@uni-tuebingen.de">hadi.shokati@uni-tuebingen.de</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
