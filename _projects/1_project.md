@@ -15,7 +15,7 @@ related_publications: true
   }
 </style>
 
-The **Erosion-SAM** project presents an automated approach for semantic segmentation of soil erosion features caused by water in agricultural landscapes. Published in **CATENA** (2025), this work demonstrates how fine-tuning the Segment Anything Model (SAM) enables accurate detection of erosion and deposition features from high-resolution aerial imagery.
+The **Erosion-SAM** project presents an automated approach for semantic segmentation of soil erosion features caused by water in agricultural landscapes. This work demonstrates how fine-tuning the Segment Anything Model (SAM) enables accurate detection of erosion and deposition features from high-resolution aerial imagery.
 
 {% cite shokati2025erosionsam %}
 
@@ -96,7 +96,7 @@ The table below shows the performance of different approaches across land cover 
     </div>
 </div>
 <div class="caption">
-    Performance comparison of different fine-tuning approaches (Cropping, Resizing without prompt, Resizing with prompt) against the original SAM baseline across different land cover types. Metrics include recall, precision, Dice coefficient, and IoU. The best performing approach (Resizing with prompt) achieved significant improvements: total recall of 0.81 (+0.25), precision of 0.76 (+0.41), Dice of 0.78 (+0.35), and IoU of 0.64 (+0.37) compared to original SAM.
+    Performance comparison of different fine-tuning approaches (Cropping, Resizing without prompt, Resizing with prompt) against the original SAM baseline across different land cover types. 
 </div>
 
 The **Resizing approach with prompt** demonstrated the best overall performance with substantial improvements across all metrics and land cover types, particularly excelling in grassland detection (IoU: 0.75, +0.38 improvement).

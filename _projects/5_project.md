@@ -129,3 +129,13 @@ Research and Development
 
 <br>
 
+### References
+
+This work is based on our comprehensive research on soil moisture estimation using remote sensing and machine learning:
+
+{% cite shokati2025soilmoisture %}
+
+{% cite shokati2024randomforest %}
+
+{% cite shokati2023uavimagery %}
+

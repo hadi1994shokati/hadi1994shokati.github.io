@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rapid Flood Mapping
+title: Flood Mapping
 description: Using fine-tuned SAM and ResNet-backboned U-Net
 img: assets/img/flood-mapping.png
 importance: 4
@@ -15,7 +15,7 @@ related_publications: true
   }
 </style>
 
-This project develops efficient deep learning models for rapid flood mapping from aerial imagery, enabling quick identification of flood-affected areas for emergency response and damage assessment. Preprint in **EGUsphere** (2025).
+This project develops efficient deep learning models for rapid flood mapping from aerial imagery, enabling quick identification of flood-affected areas for emergency response and damage assessment. 
 
 {% cite shokati2025floodmapping %}
 
@@ -32,7 +32,7 @@ Flooding is a major natural hazard that requires rapid response to minimize loss
 
 We used the 
 **<a href="https://www.kaggle.com/datasets/faizalkarim/flood-area-segmentation" target="_blank">Flood Area Dataset</a>**
-Flood Area Dataset comprising 290 images with their corresponding masks. The images were captured using UAVs and helicopters with optical sensors in different regions, including flood events in southern Germany (2013), Karnataka, Kerala and Maharashtra in India (2019), Sabah in Malaysia (2021) and Bangladesh (2022). 
+Flood Area Dataset comprising 290 images with their corresponding masks. The images were captured after some flood events in different regions using UAVs and helicopters with optical sensors.
 
 <br>
 
