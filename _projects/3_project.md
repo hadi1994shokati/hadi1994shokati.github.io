@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Rainfall Erosivity Forecasting
-description: Historical reconstruction and future prediction using ConvLSTM
+title: Rainfall Erosivity
+description: Historical reconstruction and future forecasting using ConvLSTM
 img: assets/img/rainfall-erosivity.png
 importance: 3
 category: work

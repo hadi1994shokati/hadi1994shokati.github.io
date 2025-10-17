@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Land Suitability for Wheat Cultivation
+title: Land Suitability
 description: Ensemble MCDM and machine learning approaches for agricultural land assessment
 img: assets/img/wheat-suitability.png
 importance: 6
@@ -189,6 +189,5 @@ Policy and Decision Support
 <br>
 
 
-### References
 
 {% cite nabiollahi2024landsuitability %}
