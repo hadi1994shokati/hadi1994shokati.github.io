@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-teaching",
+    title: "teaching",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -39,10 +39,10 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Teaching Assistant experience at the University of Tehran.",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
@@ -120,21 +120,21 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=https://scholar.google.com/citations?user=thqzx8QAAAAJ&hl=en", "_blank");
+          window.open("https://scholar.google.com/citations?user=thqzx8QAAAAJ", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/hadi-shokati-7071821a7/", "_blank");
+          window.open("https://www.linkedin.com/in/hadi-shokati-7071821a7", "_blank");
         },
       },{
         id: 'social-researchgate',
         title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Hadi-Shokati?ev=hdr_xprf/", "_blank");
+          window.open("https://www.researchgate.net/profile/Hadi-Shokati/", "_blank");
         },
       },{
         id: 'social-orcid',
