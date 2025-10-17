@@ -83,7 +83,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-rainfall-erosivity",
           title: 'Rainfall Erosivity',
-          description: "Historical reconstruction and future forecasting using ConvLSTM",
+          description: "Long-term analysis and prediction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-flood-mapping",
