@@ -17,7 +17,7 @@ related_publications: true
 
 This project develops efficient deep learning models for rapid flood mapping from aerial imagery, enabling quick identification of flood-affected areas for emergency response and damage assessment. 
 
-{% cite shokati2025floodmapping %}
+
 
 <br>
 
@@ -152,3 +152,4 @@ The developed models provide valuable tools for multiple stakeholders:
 **DOI**: <a href="https://doi.org/10.5194/egusphere-2025-3146" target="_blank">10.5194/egusphere-2025-3146</a>
 
 **Status**: Under review for Hydrology and Earth System Sciences (HESS)
+{% cite shokati2025floodmapping %}

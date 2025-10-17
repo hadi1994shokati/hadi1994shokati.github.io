@@ -17,7 +17,7 @@ related_publications: true
 
 The **Erosion-SAM** project presents an automated approach for semantic segmentation of soil erosion features caused by water in agricultural landscapes. This work demonstrates how fine-tuning the Segment Anything Model (SAM) enables accurate detection of erosion and deposition features from high-resolution aerial imagery.
 
-{% cite shokati2025erosionsam %}
+
 
 <br>
 
@@ -131,3 +131,5 @@ The generated data sets can be applied to machine learning-based SE modeling, pr
 > Shokati, H., Engelhardt, A., Seufferheld, K., Taghizadeh, R., Fiener, P., Lensch, H., & Scholten, T. (2025). Erosion-SAM: Semantic segmentation of soil erosion by water. *CATENA*, 254, 108954.
 
 **DOI**: <a href="https://doi.org/10.1016/j.catena.2025.108954" target="_blank">10.1016/j.catena.2025.108954</a>
+**Status**: Published in CATENA
+{% cite shokati2025erosionsam %}
