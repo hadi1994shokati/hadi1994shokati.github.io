@@ -131,5 +131,8 @@ The generated data sets can be applied to machine learning-based SE modeling, pr
 > Shokati, H., Engelhardt, A., Seufferheld, K., Taghizadeh, R., Fiener, P., Lensch, H., & Scholten, T. (2025). Erosion-SAM: Semantic segmentation of soil erosion by water. *CATENA*, 254, 108954.
 
 **DOI**: <a href="https://doi.org/10.1016/j.catena.2025.108954" target="_blank">10.1016/j.catena.2025.108954</a>
+
+<br>
+
 **Status**: Published in CATENA
 {% cite shokati2025erosionsam %}
