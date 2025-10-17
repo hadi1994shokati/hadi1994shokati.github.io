@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - hadi1994shokati
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - hadi1994shokati/Soil-erosion-segmentation
+  - hadi1994shokati/Flood-segmentation
+  - hadi1994shokati/hadi1994shokati.github.io
+  - hadi1994shokati/hadi1994shokati
