@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Soil Moisture Estimation
+title: Soil Moisture
 description: Comparing UAV hyperspectral and satellite multispectral approaches
 img: assets/img/soil-moisture-uav.png
 importance: 5

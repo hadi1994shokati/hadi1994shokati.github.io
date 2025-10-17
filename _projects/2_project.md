@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hybrid Soil Erosion Modeling
+title: Soil Erosion
 description: Combining physics-based and deep learning approaches
 img: assets/img/erosion-modeling.png
 importance: 2
