@@ -28,25 +28,24 @@
         - Description 1.
         - Description 2.
 
-- title: Experience
-  type: time_table
+- title: References
+  type: list
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Prof. Dr. Thomas Scholten
+      institution: University of Tübingen
+      description: |
+        Chair of Soil Science and Geomorphology<br>
+        Department of Geoscience, Faculty of Science<br>
+        <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/prof-dr-thomas-scholten/" target="_blank">Faculty Profile</a><br>
+        <a href="mailto:thomas.scholten@uni-tuebingen.de">thomas.scholten@uni-tuebingen.de</a>
+    
+    - title: Prof. Dr. Peter Fiener
+      institution: University of Augsburg
+      description: |
+        Professor of Water and Soil Resource Research<br>
+        Institute of Geography<br>
+        <a href="https://www.uni-augsburg.de/de/fakultaet/fai/geo/prof/umwelt/team/fiener/" target="_blank">Faculty Profile</a><br>
+        <a href="mailto:peter.fiener@geo.uni-augsburg.de">peter.fiener@geo.uni-augsburg.de</a>
 
     - title: Director
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.

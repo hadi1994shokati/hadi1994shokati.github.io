@@ -316,14 +316,20 @@
       "title": "Professor of Soil Science and Geomorphology",
       "institution": "University of Tübingen",
       "department": "Faculty of Science, Department of Geosciences",
-      "url": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/team-profs-senior/prof-dr-thomas-scholten/"
+      "role": "Chair of Soil Science and Geomorphology",
+      "url": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/prof-dr-thomas-scholten/",
+      "email": "thomas.scholten@uni-tuebingen.de",
+      "html": "<a href='https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/prof-dr-thomas-scholten/' target='_blank'>Faculty Profile</a>"
     },
     {
       "name": "Prof. Dr. Peter Fiener",
       "title": "Professor of Water and Soil Resource Research",
       "institution": "University of Augsburg",
       "department": "Institute of Geography",
-      "url": "https://www.uni-augsburg.de/en/fakultaet/fai/geo/prof/georwa/team/p-fiener/"
+      "role": "Head of Water and Soil Resource Research Group",
+      "url": "https://www.uni-augsburg.de/de/fakultaet/fai/geo/prof/umwelt/team/fiener/",
+      "email": "peter.fiener@geo.uni-augsburg.de",
+      "html": "<a href='https://www.uni-augsburg.de/de/fakultaet/fai/geo/prof/umwelt/team/fiener/' target='_blank'>Faculty Profile</a>"
     }
   ],
   
