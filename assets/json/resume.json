@@ -309,18 +309,24 @@
       "icon": "fa-solid fa-tag"
     }
   ],
+
   "references": [
     {
-      "name": "Professor Thomas Scholten",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Chair of Soil Science and Geomorphology, Department of Geoscience, Faculty of Science, University of Tübingen, Germany"
+      "name": "Prof. Dr. Thomas Scholten",
+      "title": "Professor of Soil Science and Geomorphology",
+      "institution": "University of Tübingen",
+      "department": "Faculty of Science, Department of Geosciences",
+      "url": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/team-profs-senior/prof-dr-thomas-scholten/"
     },
     {
-      "name": "Professor Peter Fiener",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Professor at the Department of Water and Soil Resource Research, Augsburg University, Augsburg, Germany"
+      "name": "Prof. Dr. Peter Fiener",
+      "title": "Professor of Water and Soil Resource Research",
+      "institution": "University of Augsburg",
+      "department": "Institute of Geography",
+      "url": "https://www.uni-augsburg.de/en/fakultaet/fai/geo/prof/georwa/team/p-fiener/"
     }
   ],
+  
   "projects": [
     {
       "name": "Erosion-SAM",
