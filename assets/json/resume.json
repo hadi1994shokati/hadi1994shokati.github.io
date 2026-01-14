@@ -61,6 +61,20 @@
   ],
   "publications": [
   {
+    "name": "Soil pH and latitude as a major predictor of C:N:P stoichiometry in Germany",
+    "publisher": "CATENA",
+    "releaseDate": "2026",
+    "url": "https://doi.org/10.1016/j.catena.2025.109785",
+    "summary": "This study identifies soil pH and latitude as key predictors of soil C:N:P stoichiometry in Germany using advanced machine learning and statistical modeling."
+  },
+  {
+    "name": "Erosion-SAM: Semantic segmentation of soil erosion by water",
+    "publisher": "CATENA",
+    "releaseDate": "2025",
+    "url": "https://doi.org/10.1016/j.catena.2025.108954",
+    "summary": "A deep learning framework, Erosion-SAM, is developed for semantic segmentation of soil erosion features from remote sensing imagery."
+  },
+  {
     "name": "A GLUE-based assessment of WaTEM/SEDEM for simulating soil erosion, transport, and deposition in soil conservation optimised agricultural watersheds",
     "publisher": "EGUsphere [preprint]",
     "releaseDate": "2025",
@@ -80,13 +94,6 @@
     "releaseDate": "2025",
     "url": "https://doi.org/10.3390/w17111715",
     "summary": "This paper compares UAV hyperspectral and satellite multispectral data for soil moisture estimation using various machine learning algorithms."
-  },
-  {
-    "name": "Erosion-SAM: Semantic segmentation of soil erosion by water",
-    "publisher": "CATENA",
-    "releaseDate": "2025",
-    "url": "https://doi.org/10.1016/j.catena.2025.108954",
-    "summary": "A deep learning framework, Erosion-SAM, is developed for semantic segmentation of soil erosion features from remote sensing imagery."
   },
   {
     "name": "BIPE: A Bi-Layer Predictive Ensemble Framework for Forest Fire Susceptibility Mapping in Germany",
