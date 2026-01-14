@@ -60,6 +60,13 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
+- title: Publications
+  type: time_table
+  contents:
+    - title: Soil pH and latitude as a major predictor of C:N:P stoichiometry in Germany
+      year: 2026
+      description: Khosravani, P., Kebonye, N. M., Taghizadeh-Mehrjardi, R., <b>Shokati, H.</b>, Hu, L., & Scholten, T. (2026). <i>CATENA</i>, 264, 109785.
+
 - title: Open Source Projects
   type: time_table
   contents:
