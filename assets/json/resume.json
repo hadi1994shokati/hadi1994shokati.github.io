@@ -300,7 +300,7 @@
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Flood Mapping",
+      "name": "Hydrology",
       "icon": "fa-solid fa-tag"
     },
     {
@@ -313,6 +313,14 @@
     },
     {
       "name": "Machine Learning and Deep Learning",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Weather Forecasting",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Climate Change",
       "icon": "fa-solid fa-tag"
     }
   ],
