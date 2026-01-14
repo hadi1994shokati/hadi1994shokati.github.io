@@ -41,7 +41,7 @@ With experience in **UAV photogrammetry, computer vision, and spatial data proce
 **I am interested in:**
 
 *   **GIS & Remote Sensing:** UAV Photogrammetry, Remote and Proximal Sensing
-*   **Environmental Modelling:** Soil Erosion, Soil Moisture, Flood, Climate Change
+*   **Environmental Modelling:** Soil Erosion, Soil Moisture, Hydrology, Weather Forecasting, Climate Change
 *   **Data Science:** Spatial Data Analysis, Deep Learning, Computer Vision
 *   **Agriculture:** Precision Agriculture, Land Monitoring
 
