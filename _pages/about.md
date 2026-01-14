@@ -38,16 +38,12 @@ latest_posts:
 I am a **Soil Scientist** at the **[University of Tübingen, Germany](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/doctoral-students/hadi-shokati/)**, combining **deep learning and remote sensing** to model **soil and environmental processes** in agricultural systems.
 With experience in **UAV photogrammetry, computer vision, and spatial data processing**, I’m passionate about applying **data-driven approaches** to address challenges in **agricultural, environmental, and land monitoring** applications.
 
-
 **I am interested in:**
 
-GIS, Remote and Proximal Sensing
-
-Soil Erosion and Soil Moisture Modelling
-
-Spatial Data Analysis and Machine Learning
-
-Photogerametry, Climate Change and Precision Agriculture
+*   **GIS & Remote Sensing:** UAV Photogrammetry, Remote and Proximal Sensing
+*   **Environmental Modelling:** Soil Erosion, Soil Moisture, Flood, Climate Change
+*   **Data Science:** Spatial Data Analysis, Deep Learning, Computer Vision
+*   **Agriculture:** Precision Agriculture, Land Monitoring
 
 
 
