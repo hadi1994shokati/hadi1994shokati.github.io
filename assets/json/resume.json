@@ -82,10 +82,10 @@
     "summary": "This study assesses the performance of WaTEM/SEDEM using a GLUE-based uncertainty framework for simulating soil erosion, transport, and deposition in optimized agricultural watersheds."
   },
   {
-    "name": "Rapid Flood Mapping from Aerial Imagery Using Fine-Tuned SAM and ResNet-Backboned U-Net",
-    "publisher": "EGUsphere [preprint]",
-    "releaseDate": "2025",
-    "url": "https://doi.org/10.5194/egusphere-2025-3146",
+    "name": "Rapid flood mapping from aerial imagery using fine-tuned SAM and ResNet-backboned U-Net",
+    "publisher": "Hydrology and Earth System Sciences",
+    "releaseDate": "2026",
+    "url": "https://doi.org/10.5194/hess-30-743-2026",
     "summary": "This work presents a fine-tuned SAM and ResNet-based U-Net approach for rapid and accurate flood mapping using aerial imagery."
   },
   {
