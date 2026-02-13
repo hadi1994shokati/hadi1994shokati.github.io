@@ -63,6 +63,9 @@
 - title: Publications
   type: time_table
   contents:
+    - title: Rapid flood mapping from aerial imagery using fine-tuned SAM and ResNet-backboned U-Net
+      year: 2026
+      description: <b>Shokati, H.</b>, Seufferheld, K. D., Fiener, P., & Scholten, T. (2026). <i>Hydrology and Earth System Sciences</i>, 30, 743-756.
     - title: Soil pH and latitude as a major predictor of C:N:P stoichiometry in Germany
       year: 2026
       description: Khosravani, P., Kebonye, N. M., Taghizadeh-Mehrjardi, R., <b>Shokati, H.</b>, Hu, L., & Scholten, T. (2026). <i>CATENA</i>, 264, 109785.
