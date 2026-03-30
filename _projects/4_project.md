@@ -147,9 +147,9 @@ The developed models provide valuable tools for multiple stakeholders:
 ### Publication
 
 **Citation:**
-> Shokati, H., Seufferheld, K. D., Fiener, P., & Scholten, T. (2025). Rapid Flood Mapping from Aerial Imagery Using Fine-Tuned SAM and ResNet-Backboned U-Net. *EGUsphere* [preprint].
+> Shokati, H., Seufferheld, K. D., Fiener, P., & Scholten, T. (2026). Rapid flood mapping from aerial imagery using fine-tuned SAM and ResNet-backboned U-Net. *Hydrology and Earth System Sciences*, 30(5), 743-756.
 
-**DOI**: <a href="https://doi.org/10.5194/egusphere-2025-3146" target="_blank">10.5194/egusphere-2025-3146</a>
+**DOI**: <a href="https://doi.org/10.5194/hess-30-743-2026" target="_blank">10.5194/hess-30-743-2026</a>
 
-**Status**: Under review for Hydrology and Earth System Sciences (HESS)
+**Status**: Published in Hydrology and Earth System Sciences (HESS)
 {% cite shokati2025floodmapping %}
