@@ -76,9 +76,9 @@
   },
   {
     "name": "A GLUE-based assessment of WaTEM/SEDEM for simulating soil erosion, transport, and deposition in soil conservation optimised agricultural watersheds",
-    "publisher": "EGUsphere [preprint]",
-    "releaseDate": "2025",
-    "url": "https://doi.org/10.5194/egusphere-2025-3391",
+    "publisher": "SOIL",
+    "releaseDate": "2026",
+    "url": "https://soil.copernicus.org/articles/12/301/2026/",
     "summary": "This study assesses the performance of WaTEM/SEDEM using a GLUE-based uncertainty framework for simulating soil erosion, transport, and deposition in optimized agricultural watersheds."
   },
   {
@@ -404,7 +404,7 @@
       "highlights": ["Soil Erosion", "WaTEM/SEDEM", "GLUE", "Uncertainty Analysis"],
       "startDate": "Jan 2021",
       "endDate": "Dec 2024",
-      "url": "https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3391/"
+      "url": "https://soil.copernicus.org/articles/12/301/2026/"
     },
     {
       "name": "Land Suitability Assessment for Wheat Cultivation",
