@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Department of Soil Science and Geomorphology, University of Tübingen, Germany.
+subtitle: Department of Computer Science, University of Tübingen, Germany.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Room W310, Westbau</p>
-    <p>Rümelinstraße 19 – 23</p>
-    <p>72070 Tübingen, Germany</p>
+    <p>Office: 00-28/A18</p>
+    <p>Maria-von-Linden-Straße 6</p>
+    <p>72076 Tübingen, Germany</p>
     <p><a href="mailto:hadi.shokati@uni-tuebingen.de">hadi.shokati@uni-tuebingen.de</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -35,15 +35,14 @@ latest_posts:
   }
 </style>
 
-I am a **Soil Scientist** at the **[University of Tübingen, Germany](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/doctoral-students/hadi-shokati/)**, combining **deep learning and remote sensing** to model **soil and environmental processes** in agricultural systems.
-With experience in **UAV photogrammetry, computer vision, and spatial data processing**, I’m passionate about applying **data-driven approaches** to address challenges in **agricultural, environmental, and land monitoring** applications.
+I am a Postdoctoral Researcher in Computer Science at the University of Tübingen, specializing in Machine Learning for Earth System Modelling. I develop interpretable, physics-aware AI methods that bridge data-driven learning with scientific knowledge. Leveraging a strong background in deep learning, remote sensing, UAV photogrammetry, and computer vision, my goal is to build trustworthy AI for scientific discovery and real-world environmental impact.
 
 **I am interested in:**
 
-*   **GIS & Remote Sensing:** UAV Photogrammetry, Remote and Proximal Sensing
-*   **Environmental Modelling:** Soil Erosion, Soil Moisture, Hydrology, Weather Forecasting, Climate Change
-*   **Data Science:** Spatial Data Analysis, Deep Learning, Computer Vision
-*   **Agriculture:** Precision Agriculture, Land Monitoring
+- **GIS & Remote Sensing:** UAV Photogrammetry, Remote and Proximal Sensing
+- **Environmental Modelling:** Soil Erosion, Soil Moisture, Hydrology, Weather Forecasting, Climate Change, Earth System Modelling
+- **Data Science:** Spatial Data Analysis, Deep Learning, Computer Vision
+- **Agriculture:** Precision Agriculture, Land Monitoring
 
 
 

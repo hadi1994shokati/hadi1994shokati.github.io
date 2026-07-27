@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: CV_Hadi.pdf # you can also use external links here
+cv_pdf: /assets/pdf/CV_Hadi_Shokati.pdf # you can also use external links here
 description: 
 toc:
   sidebar: left
