@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Hadi Shokati",
-    "label": "Soil Scientist",
+    "label": "Postdoctoral Researcher in Computer Science",
     "image": "",
     "email": "hadi.shokati@uni-tuebingen.de",
     "phone": "(+49) 15901384204",
     "url": "https://hadi1994shokati.github.io/",
-    "summary": "Soil scientist at the University of Tübingen.",
+    "summary": "Postdoctoral Researcher in Computer Science at the University of Tübingen, specializing in Machine Learning for Earth System Modelling.",
     "location": {
-      "address": "72070 Rümelinstraße 19 - 23",
-      "postalCode": "72070",
+      "address": "Office: 00-28/A18, Maria-von-Linden-Straße 6",
+      "postalCode": "72076",
       "city": "Tübingen",
       "countryCode": "DE",
       "region": "Baden-Württemberg"
@@ -24,13 +24,13 @@
   },
   "work": [
     {
-      "name": "Faculty of Soil Science & Geomorphology, University of Tübingen",
-      "position": "PhD Student",
-      "url": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/doctoral-students/hadi-shokati/",
-      "startDate": "2023-08-01",
+      "name": "Department of Computer Science, University of Tübingen",
+      "position": "Postdoctoral Researcher",
+      "url": "https://uni-tuebingen.de/",
+      "startDate": "2026-08-01",
       "endDate": "ongoing",
-      "summary": "Soil Erosion modeling using Deep Learning and Remote Sensing in Precision Agriculture.",
-      "highlights": ["Soil Erosion", "Deep Learning", "Remote Sensing", "Precision Agriculture"]
+      "summary": "Developing interpretable, physics-aware AI methods for Machine Learning in Earth System Modelling.",
+      "highlights": ["Machine Learning", "Earth System Modelling", "Remote Sensing", "Computer Vision", "Interpretable AI"]
     }
   ],
   "education": [
@@ -41,7 +41,7 @@
       "area": "Soil Science",
       "studyType": "PhD",
       "startDate": "2023-08-01",
-      "endDate": "ongoing",
+      "endDate": "2026-07-31",
       "score": ""
     }
   ],
