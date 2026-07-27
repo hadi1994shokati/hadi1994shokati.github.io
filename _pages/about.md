@@ -35,7 +35,7 @@ latest_posts:
   }
 </style>
 
-I am a Postdoctoral Researcher in Computer Science at the University of Tübingen, specializing in Machine Learning for Earth System Modelling. I develop interpretable, physics-aware AI methods that bridge data-driven learning with scientific knowledge. Leveraging a strong background in deep learning, remote sensing, UAV photogrammetry, and computer vision, my goal is to build trustworthy AI for scientific discovery and real-world environmental impact.
+I am a **Postdoctoral Researcher** in **Computer Science** at the <a href="https://uni-tuebingen.de/" target="_blank" rel="noopener noreferrer">University of Tübingen</a>, specializing in **Machine Learning for Earth System Modelling**. I develop **interpretable, physics-aware AI methods** that bridge data-driven learning with scientific knowledge. Leveraging a strong background in **deep learning, remote sensing, UAV photogrammetry, and computer vision**, my goal is to build **trustworthy AI** for scientific discovery and real-world environmental impact.
 
 **I am interested in:**
 
