@@ -9,7 +9,7 @@ profile:
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Office: 00-28/A18</p>
+    <p>Office: 00-30/A24</p>
     <p>Maria-von-Linden-Straße 6</p>
     <p>72076 Tübingen, Germany</p>
     <p><a href="mailto:hadi.shokati@uni-tuebingen.de">hadi.shokati@uni-tuebingen.de</a></p>
